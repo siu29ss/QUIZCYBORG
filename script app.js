@@ -17,7 +17,7 @@ let x="";
 let username;
 // if startQuiz button clicked
 start_btn.addEventListener("click",e=>{
-    e.preventDefault;
+    e.preventDefault();
     username= player_name.username.value;
     if (username==="")
     {
